@@ -6,11 +6,11 @@ pdf = FPDF()
 pdf.add_page()
 
 # add a left border filled
-pdf.set_fill_color(50,60,65)
-#add grey/green left border
+pdf.set_fill_color(218,26,51)
+#add red/orange left border
 pdf.rect(x=0, y=0, w=5, h=297, style='F')
-#add yellow next to grey left border
-pdf.set_fill_color(253,243,83)
+#add purple next to red left border
+pdf.set_fill_color(167,5,106)
 pdf.rect(x=5, y=0, w=2, h=297, style='F') 
 
 # Left side of page (group names, date, ticker, and logo)
